@@ -1,0 +1,167 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #111827;
+    line-height: 1.6;
+}
+  
+/* Header */
+header {
+    background: linear-gradient(90deg, #3b82f6, #22c55e);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+  
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+}
+  
+header nav a:hover {
+    text-decoration: underline;
+}
+  
+/* Input Section */
+.inputs-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+}
+  
+.inputs-container input {
+    width: 220px;
+    padding: 0.6rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+  
+.inputs-container input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+}
+  
+.inputs-container button {
+    width: 90px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+  
+.inputs-container button:hover {
+    background-color: #2563eb;
+}
+  
+/* Main Section */
+main {
+    position: relative;
+    margin: 1rem auto;
+    width: 90%;
+}
+  
+/* Map Container */
+#map-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #e5e7eb;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+  
+/* Route Details Positioned Top-Right */
+#route-details {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 220px;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it stays above the map */
+}
+  
+#route-details h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+  
+#route-details p {
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+}
+  
+#route-details button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+  
+#route-details button:hover {
+    background-color: #2563eb;
+}
+  
+/* Footer */
+footer {
+    background-color: #111827;
+    color: #f9fafb;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+  
+/* Loading message */
+#loading {
+  font-size: 1.2em;
+  color: #007bff;
+  margin-top: 20px;
+}
+
+/* Info box for distance and time */
+#infoBox {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 1.2em;
+}
