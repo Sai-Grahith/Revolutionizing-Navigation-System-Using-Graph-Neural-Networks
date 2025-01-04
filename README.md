@@ -93,19 +93,22 @@ Below are some screenshots showcasing the outputs of the project:
 
 ### **1. Revolutionizing Navigation System using GNN User Interface **
 
-(results/Screenshot%202024-11-28%20213033.png)
+![User Interface](results/Screenshot%202024-11-28%20213033.png)
 
 ### **2. Input Origin (latitude, longitude)**
+Coordinates of Gandipet, Hyderabad.
 
-(results/Screenshot%202024-11-28%20213148.png)
+![Input Origin](results/Screenshot%202024-11-28%20213148.png)
 
 ### **3. Input Destination (latitude, longitude)**
+Coordinates of Kokapet, Hyderabad.
 
-(results/Screenshot%202024-11-28%20213244.png)
+![Input Destination](results/Screenshot%202024-11-28%20213244.png)
 
 ### **4. Optimal route**
 
 This example demonstrates the system calculating an optimal route based on randomly assigned traffic data.
+
 ![Predictive Routing](results/Screenshot%202024-11-28%20213309.png)
 
 ---
